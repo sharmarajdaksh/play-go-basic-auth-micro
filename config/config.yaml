@@ -1,0 +1,11 @@
+global:
+  listenPort: "9091"
+security:
+  saltSize: 16
+database:
+  postgres:
+    postgresHost: "127.0.0.1"
+    postgresConnectionPort: "9920"
+    postgresUsername: "postgres"
+    postgresPassword: "postgres"
+    postgresDatabaseName: "postgres"
